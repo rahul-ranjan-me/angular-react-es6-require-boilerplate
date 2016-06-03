@@ -1,0 +1,43 @@
+body{
+	background:#fff;
+	font-family: arial;
+	font-size: 12px;
+}
+
+table{
+	width:100%;
+	margin-top: 10px;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+	border-right: none;
+}
+
+table tr{
+	border-bottom: 1px solid #ccc;
+}
+
+table td{
+	padding:5px;
+	font-size: 12px;
+	border-right: 1px solid #ccc;
+}
+
+button{
+	font-size: 15px;
+	padding: 5px;
+	width: 100%;
+	margin: 20px 0;
+	font-weight: bold;
+}
+
+.orange{
+	background-color:#ff6e00
+}
+
+.red{
+	background-color:red
+}
+
+.green{
+	background-color:#1b7c00
+}

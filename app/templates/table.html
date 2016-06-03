@@ -1,0 +1,16 @@
+<div>
+	
+	<h1>Angular Demo</h1>
+
+	<button type="button" ng-click="generateData()">Generate data</button>
+	
+	<table cellspacing="0" cellpadding="0">
+		<tbody>
+			<tr ng-repeat="rows in data track by $index">
+
+				<td ng-repeat="cells in rows track by $index" ng-class="{orange:cells==1, green:cells==2, red:cells==3}">{{cells}}</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
